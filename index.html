@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="description" content="PQG">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+<style>
+body{background:hsla(59, 95%, 47%, 0.767);
+    margin:0
+}
+.form{
+    width:940px;
+    height:655px;
+    background:#e6e6e6;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(50vh - 220px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative
+}
+
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #2525b4
+}
+input:focus{
+    border-bottom:2px solid #78788c
+}
+p:before{
+    content:attr(type);
+    display:block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:40px 0 0;font-size:18px;
+    color:#3f990b
+}
+button{
+    background-color: #0d0d0e;
+            color: rgb(255, 255, 255);
+            padding: 15px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            float: right;
+}
+button:hover{
+    background:#d186bb;
+    color:#e404ac
+}
+div{
+    content:'Hi';
+    position:absolute;
+    bottom:-15px;right:-20px;
+    background:#50505a;
+    color:#080707;
+    width:320px;
+    padding:16px 4px 16px 0;
+    border-radius:6px;
+    font-size:13px;
+    box-shadow:10px 10px 40px -14px #000
+}
+span{
+    margin:0 10px 0 15px
+}
+
+</style>
+  </head>
+  <body>
+    <form action="" method="get" class="form" align-items: center>
+        <h2 style="color: rgb(255, 155, 24); font-family: Georgia, 'Times New Roman', Times, serif;">Formulario de registro - Mi web</h2>
+        <p type="Nombre:"><input placeholder="Escribe tu nombre..."></input></p>
+        <p type="Apellidos:"><input placeholder="Escribe tus apellidos..."></input></p><br><br>
+            <radiogroup>
+            <input type="radio" name="genero" value="masculino">masculino<br> 
+            
+            <input type="radio" name="genero" value="femenino">femenino<br>
+        </radiogroup>   
+        <br><br>
+        <input  type="checkbox"  name="opcioness" value= "rock" checked="checked"><strong style="color: rgb(0, 145, 100); font-family: Georgia, 'Times New Roman', Times, serif;">Deseo recibir informaci&oacuten sobre novedades y ofertas</strong>
+<br/>
+<br>
+<strong style="color: rgb(80, 240, 88); font-family: Georgia, 'Times New Roman', Times, serif;">Declaro haber le&iacutedo y aceptar las condiciones generales del programa y la normativa sobre protecci&oacuten de datos<input  type="checkbox"  name="opcioness" value= " rock"></strong>
+<br><br>
+<br><br>
+<label style= "color: rgb(235, 131, 12); font-family: Georgia, 'Times New Roman', Times, serif;" for= "Poblacion">Poblaci&oacuten:</label>
+<select id="Poblacion" name="Poblacion"> 
+<option value="Orizaba">Orizaba</option>
+<option value="Cordoba">C&oacuterdoba</option>
+<option value="Xalapa">Xalapa</option>
+<option value="Veracruz">Veracruz</option>
+</select>
+
+        
+        <button>Enviar</button><br><br><br><br>
+        <tr>
+            <th align="center" colspan="3">Autora:  Amayrani Crecencio Teodoro</th>
+        </tr>
+
+  </body>
+</html>
